@@ -11,19 +11,13 @@ export default function Home() {
       </Head>
 
       <main className="text-center">
-        <Text h1 className="mb-4">
-          Welcome to Stockie
-        </Text>
+        <Text h1 className="mb-4">Welcome to Stockie</Text>
         <Card className="mb-4">
           <Card.Body>
-            <Text>
-              Get started by exploring our product management system.
-            </Text>
+            <Text>Get started by exploring our product management system.</Text>
           </Card.Body>
         </Card>
-        <Button auto color="primary">
-          Get Started
-        </Button>
+        <Button auto color="primary">Get Started</Button>
       </main>
     </div>
   );
